@@ -1,0 +1,49 @@
+{
+  "name": "vscode-indielayer-theme",
+  "displayName": "Indielayer Theme",
+  "description": "VSCode Indielayer Theme",
+  "version": "1.0.0",
+  "publisher": "indielayer",
+  "engines": {
+    "vscode": "^1.17.0"
+  },
+  "scripts": {
+    "list": "npx vsce ls",
+    "package": "npx vsce package",
+    "publish": "npx vsce publish"
+  },
+  "galleryBanner": {
+    "color": "#222937",
+    "theme": "dark"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "images/icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Indielayer (Dark)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Indielayer-color-theme.json"
+      }
+    ]
+  },
+  "keywords": [
+    "vscode",
+    "theme",
+    "indielayer",
+    "onedark",
+    "monokai"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indielayer/vscode-indielayer-theme.git"
+  },
+  "author": "João Teixeira <joao@indielayer.com> (https://indielayer.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/indielayer/vscode-indielayer-theme/issues"
+  },
+  "homepage": "https://github.com/indielayer/vscode-indielayer-theme#readme"
+}
