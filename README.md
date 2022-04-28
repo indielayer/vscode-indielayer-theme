@@ -17,6 +17,7 @@ This extension for Visual Studio Code add the theme titled "Indielayer (Dark)".
 1. Optional: Use the recommended settings below for best experience
 
 ## Recommended Settings
+```js
 {
   "editor.fontSize": 12,
   "editor.fontFamily": "Fira Code",
@@ -31,6 +32,7 @@ This extension for Visual Studio Code add the theme titled "Indielayer (Dark)".
   "workbench.colorTheme": "Indielayer (Dark)"
   "zenMode.centerLayout": false,
 }
+```
 
 ## Fonts
 

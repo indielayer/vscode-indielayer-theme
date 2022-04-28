@@ -2,7 +2,7 @@
   "name": "vscode-indielayer-theme",
   "displayName": "Indielayer Theme",
   "description": "VSCode Indielayer Theme",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "publisher": "indielayer",
   "engines": {
     "vscode": "^1.17.0"
