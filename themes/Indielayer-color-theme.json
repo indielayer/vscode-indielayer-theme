@@ -112,9 +112,17 @@
       }
     },
     {
-      "name": "Keyword Unit & Punctuation",
+      "name": "Keyword Unit",
       "scope": [
         "keyword.other.unit",
+      ],
+      "settings": {
+        "foreground": "#ae9fbc"
+      }
+    },
+    {
+      "name": "Punctuation",
+      "scope": [
         "punctuation.terminator",
         "punctuation.separator"
       ],
@@ -144,16 +152,35 @@
       }
     },
     {
-      "name": "Class",
+      "name": "Class Entities",
       "scope": [
         "entity.name.class",
         "entity.name.module",
-        "entity.name.type",
+        "support.class.builtin",
         "storage.identifier",
-        "support.class"
+        "entity.name.type.interface",
+        "entity.name.type.ts",
+        "entity.name.type.class.ts",
+        "entity.name.type.class.js"
       ],
       "settings": {
         "foreground": "#61afef"
+      }
+    },
+    {
+      "name": "Meta Type",
+      "scope": [
+        "meta.object-literal.key",
+        "meta.object.member",
+        "meta.objectliteral",
+        "meta.object.member",
+        "meta.objectliteral",
+        "meta.object.member",
+        "meta.objectliteral",
+        "meta.export.default",
+      ],
+      "settings": {
+        "foreground": "#AEBCD0"
       }
     },
     {
@@ -167,7 +194,7 @@
         "variable.readwrite.other.block"
       ],
       "settings": {
-        "foreground": "#61afef"
+        "foreground": "#828b92"
       }
     },
     {
@@ -185,7 +212,7 @@
       "name": "Inherited Class",
       "scope": "entity.other.inherited-class",
       "settings": {
-        "foreground": "#98c379"
+        "foreground": "#56B6C2"
       }
     },
     {
