@@ -668,6 +668,8 @@
     "scrollbarSlider.background": "#3a455b80",
     "scrollbarSlider.hoverBackground": "#5A637580",
     "sideBar.background": "#1a202b",
+    "sideBar.foreground": "#7c889e",
+    "gitDecoration.ignoredResourceForeground": "#454f63",
     "sideBarSectionHeader.background": "#273143",
     "statusBar.background": "#1a212e",
     "statusBar.foreground": "#9da5b4",
