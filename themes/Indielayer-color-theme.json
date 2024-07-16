@@ -5,7 +5,10 @@
   "semanticTokenColors": {
     "variable.declaration": {
       "foreground": "#61afef"
-    }
+    },
+    "class": {
+      "foreground": "#61afef"
+    },
   },
   "tokenColors": [
     {
